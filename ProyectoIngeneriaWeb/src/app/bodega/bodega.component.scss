@@ -1,0 +1,39 @@
+
+@mixin dektop-view ($width){
+  @media(min-width:1440px){
+    width: $width;
+  }
+}
+@mixin phone-view() {
+  width:300px;
+  margin: 25px auto 0px;
+}
+.opciones{
+  color: white;
+  width:500px;
+  margin: 25px auto x;
+  @include dektop-view(1200px);
+}
+
+.btn-group btn-group-toggle{
+}
+
+.intro {
+  height: 100%;
+}
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.card {
+  border-radius: .5rem;
+}
+.precio{
+  height:    px;
+}
+
+
+
