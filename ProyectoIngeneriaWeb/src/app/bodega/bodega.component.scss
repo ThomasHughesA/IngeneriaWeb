@@ -1,4 +1,5 @@
 
+
 @mixin dektop-view ($width){
   @media(min-width:1440px){
     width: $width;
@@ -34,6 +35,4 @@ table th {
 .precio{
   height:    px;
 }
-
-
 

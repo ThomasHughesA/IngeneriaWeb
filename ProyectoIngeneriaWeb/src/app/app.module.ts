@@ -7,6 +7,7 @@ import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 import { RegistroSesionComponent } from './registro-sesion/registro-sesion.component';
 import { BodegaComponent } from './bodega/bodega.component';
 import { PedidosComponent } from './pedidos/pedidos.component';
+import { HeaderFoodyComponent } from './header-foody/header-foody.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PedidosComponent } from './pedidos/pedidos.component';
     InicioSesionComponent,
     RegistroSesionComponent,
     BodegaComponent,
-    PedidosComponent
+    PedidosComponent,
+    HeaderFoodyComponent
   ],
   imports: [
     BrowserModule,
