@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { event } from 'jquery';
-import jQuery = require('jquery');
-const $:JQueryStatic=jQuery;
+
 
 
 

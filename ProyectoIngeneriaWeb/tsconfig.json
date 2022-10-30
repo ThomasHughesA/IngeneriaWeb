@@ -17,7 +17,7 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2020",
-    "module": "amd",
+    "module": "ES2020",
     "lib": [
       "es2020",
       "dom"

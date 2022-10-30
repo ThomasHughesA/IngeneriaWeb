@@ -8,7 +8,7 @@ import { RegistroSesionComponent } from './registro-sesion/registro-sesion.compo
 import { BodegaComponent } from './bodega/bodega.component';
 import { PedidosComponent } from './pedidos/pedidos.component';
 import { HeaderFoodyComponent } from './header-foody/header-foody.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +20,8 @@ import { HeaderFoodyComponent } from './header-foody/header-foody.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
